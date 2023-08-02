@@ -1,0 +1,1379 @@
+{
+  "uid" : "b201e2ad430f9fe1",
+  "name" : "Verify user able to add the all medentory feilds in the account ",
+  "fullName" : "Test.Person.UnitSelection.T002",
+  "historyId" : "4820d2012f0c68cccf6975ad01a7f063",
+  "time" : {
+    "start" : 1686119466323,
+    "stop" : 1686119688206,
+    "duration" : 221883
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "extractDataExcleAndObjectOfClassCreations",
+    "time" : {
+      "start" : 1686118973173,
+      "stop" : 1686118980576,
+      "duration" : 7403
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1686118965054,
+      "stop" : 1686118973105,
+      "duration" : 8051
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1686119466318,
+      "stop" : 1686119466318,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User login sandbox with the correct credentials",
+      "time" : {
+        "start" : 1686119466324,
+        "stop" : 1686119466704,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usernameValue",
+        "value" : "jayant.rajput@infobeans.com.regsb"
+      }, {
+        "name" : "passwordValue",
+        "value" : "Sales@1234"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Fill the data in the lead page",
+      "time" : {
+        "start" : 1686119466733,
+        "stop" : 1686119496883,
+        "duration" : 30150
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Add the random name middle name and the last name",
+        "time" : {
+          "start" : 1686119466733,
+          "stop" : 1686119481045,
+          "duration" : 14312
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "firstNameValue",
+          "value" : "Autmation327"
+        }, {
+          "name" : "MiddleNameValue",
+          "value" : "Automation"
+        }, {
+          "name" : "lastNameValue",
+          "value" : "Autmation35558"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119481045,
+          "stop" : 1686119481929,
+          "duration" : 884
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Customer Type, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "New Customer"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119482424,
+          "stop" : 1686119483613,
+          "duration" : 1189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Sales Type, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Institutional"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119483691,
+          "stop" : 1686119484884,
+          "duration" : 1193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Property Usage, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Corporate"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119484938,
+          "stop" : 1686119486227,
+          "duration" : 1289
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Project, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Al Bandar Plaza"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119486278,
+          "stop" : 1686119488267,
+          "duration" : 1989
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Sales Origin, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Domestic"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119488323,
+          "stop" : 1686119490419,
+          "duration" : 2096
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Method of Contact, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Walk-In"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119490465,
+          "stop" : 1686119492535,
+          "duration" : 2070
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Enquiry Category, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Roadshow"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686119492580,
+          "stop" : 1686119494682,
+          "duration" : 2102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Enquiry Trigger, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "International Events & Exhibitions"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on save button",
+        "time" : {
+          "start" : 1686119494682,
+          "stop" : 1686119496883,
+          "duration" : 2201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "Autmation327"
+      }, {
+        "name" : "middleName",
+        "value" : "Automation"
+      }, {
+        "name" : "LastName",
+        "value" : "Autmation35558"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    }, {
+      "name" : "Get the unique id of the lead from the lead page",
+      "time" : {
+        "start" : 1686119496883,
+        "stop" : 1686119500458,
+        "duration" : 3575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate the status of the lead after click on the lead that is inprocess or completed",
+      "time" : {
+        "start" : 1686119500459,
+        "stop" : 1686119502390,
+        "duration" : 1931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "logout from the account",
+      "time" : {
+        "start" : 1686119502639,
+        "stop" : 1686119505144,
+        "duration" : 2505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "User login sandbox with the correct credentials",
+      "time" : {
+        "start" : 1686119505144,
+        "stop" : 1686119506071,
+        "duration" : 927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usernameValue",
+        "value" : "arbaaz.khan@infobeans.com.regsb"
+      }, {
+        "name" : "passwordValue",
+        "value" : "Amk@0101.IT"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Applied asserations After login Serach button is displayed",
+      "time" : {
+        "start" : 1686119506071,
+        "stop" : 1686119510503,
+        "duration" : 4432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "globally search for the lead and click on the lead",
+      "time" : {
+        "start" : 1686119510503,
+        "stop" : 1686119553710,
+        "duration" : 43207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "L00414828"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Set the random eamil id",
+      "time" : {
+        "start" : 1686119553710,
+        "stop" : 1686119558685,
+        "duration" : 4975
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "emailID",
+        "value" : "abdvla@gmail.com"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Wait unit the emailID Text is to be displyed",
+      "time" : {
+        "start" : 1686119558685,
+        "stop" : 1686119558835,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Set values in the dropdown without click on the save",
+      "time" : {
+        "start" : 1686119558858,
+        "stop" : 1686119560176,
+        "duration" : 1318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dropdownTypes",
+        "value" : "Mobile Country Code, --None--"
+      }, {
+        "name" : "dropdownValues",
+        "value" : "United Arab Emirates(+971)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Set the random mobile number",
+      "time" : {
+        "start" : 1686119560176,
+        "stop" : 1686119560515,
+        "duration" : 339
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mobileNumberValue",
+        "value" : "5351762683"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on save button",
+      "time" : {
+        "start" : 1686119560515,
+        "stop" : 1686119562713,
+        "duration" : 2198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "logout from the account",
+      "time" : {
+        "start" : 1686119562901,
+        "stop" : 1686119565922,
+        "duration" : 3021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "User login sandbox with the correct credentials",
+      "time" : {
+        "start" : 1686119565976,
+        "stop" : 1686119567015,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usernameValue",
+        "value" : "jayant.rajput@infobeans.com.regsb"
+      }, {
+        "name" : "passwordValue",
+        "value" : "Sales@1234"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Applied asserations After login Serach button is displayed",
+      "time" : {
+        "start" : 1686119567015,
+        "stop" : 1686119572338,
+        "duration" : 5323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "global search for the lead after the sales login",
+      "time" : {
+        "start" : 1686119572339,
+        "stop" : 1686119577898,
+        "duration" : 5559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "L00414828"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Updated the qulified lead",
+      "time" : {
+        "start" : 1686119577898,
+        "stop" : 1686119582487,
+        "duration" : 4589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "fill the values of the dropdown after the qulified lead",
+      "time" : {
+        "start" : 1686119582545,
+        "stop" : 1686119607865,
+        "duration" : 25320
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Set values in the dropdown without click on the save",
+        "time" : {
+          "start" : 1686119582545,
+          "stop" : 1686119585354,
+          "duration" : 2809
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Lead Status, In Progress Lead"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Qualified Lead"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119585354,
+          "stop" : 1686119587307,
+          "duration" : 1953
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Unit Type, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Apartment"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Unit Type"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119587307,
+          "stop" : 1686119590218,
+          "duration" : 2911
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Buy/Rent, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Buy"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Buy/Rent"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119590219,
+          "stop" : 1686119592459,
+          "duration" : 2240
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Lead Origin, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "United Arab Emirates"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Lead Origin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119592459,
+          "stop" : 1686119594654,
+          "duration" : 2195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Customer Budget, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "0M-AED 25M"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Customer Budget"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119594654,
+          "stop" : 1686119597118,
+          "duration" : 2464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Number of Bedrooms, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "2BHK"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Number of Bedrooms"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119597118,
+          "stop" : 1686119599418,
+          "duration" : 2300
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Resident Status, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Resident"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Resident Status"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119599418,
+          "stop" : 1686119601486,
+          "duration" : 2068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Financing, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Yes"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Financing"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119601486,
+          "stop" : 1686119603488,
+          "duration" : 2002
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Purpose of Use, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "End User"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Purpose of Use"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+        "time" : {
+          "start" : 1686119603488,
+          "stop" : 1686119605692,
+          "duration" : 2204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Property Readiness, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "0-12 months"
+        }, {
+          "name" : "sangTypes",
+          "value" : "Property Readiness"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on save button",
+        "time" : {
+          "start" : 1686119605692,
+          "stop" : 1686119607865,
+          "duration" : 2173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 11,
+      "hasContent" : true
+    }, {
+      "name" : "Validate the lead status is able to show as 'converted lead'",
+      "time" : {
+        "start" : 1686119607866,
+        "stop" : 1686119612723,
+        "duration" : 4857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "global search for the lead name",
+      "time" : {
+        "start" : 1686119612723,
+        "stop" : 1686119615705,
+        "duration" : 2982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "value",
+        "value" : "Autmation327 Automation Autmation35558"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the account after gobal search",
+      "time" : {
+        "start" : 1686119615705,
+        "stop" : 1686119662279,
+        "duration" : 46574
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Clcik on the account button after click on the Opportunities",
+      "time" : {
+        "start" : 1686119662279,
+        "stop" : 1686119667613,
+        "duration" : 5334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate the gender is displayed",
+      "time" : {
+        "start" : 1686119667613,
+        "stop" : 1686119668119,
+        "duration" : 506
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Set values in the dropdown without click on the save",
+      "time" : {
+        "start" : 1686119668119,
+        "stop" : 1686119669185,
+        "duration" : 1066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dropdownTypes",
+        "value" : "Gender, --None--"
+      }, {
+        "name" : "dropdownValues",
+        "value" : "Male"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119669185,
+        "stop" : 1686119670559,
+        "duration" : 1374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "01/05/1789"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Date of Birth"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PersonBirthdate"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+      "time" : {
+        "start" : 1686119670559,
+        "stop" : 1686119671524,
+        "duration" : 965
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dropdownTypes",
+        "value" : "Marital Status, --None--"
+      }, {
+        "name" : "dropdownValues",
+        "value" : "Single"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Marital Status"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+      "time" : {
+        "start" : 1686119671525,
+        "stop" : 1686119672429,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dropdownTypes",
+        "value" : "Residential Address same as Permanent?, --None--"
+      }, {
+        "name" : "dropdownValues",
+        "value" : "Yes"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Residential Address same as Permanent?"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119672430,
+        "stop" : 1686119673329,
+        "duration" : 899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Passport Type"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PassportType__pc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119673329,
+        "stop" : 1686119675068,
+        "duration" : 1739
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Place of Issue"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PlaceofIssue__pc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119675068,
+        "stop" : 1686119676185,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "01/05/1989"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Passport Issue Date"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PassportIssueDate__pc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119676186,
+        "stop" : 1686119677382,
+        "duration" : 1196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "01/05/1990"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Passport Expiry Date"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PassportExpiryDate__pc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select the dropdown from the account page",
+      "time" : {
+        "start" : 1686119677382,
+        "stop" : 1686119678127,
+        "duration" : 745
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Passport Number"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "PassportNumber__pc"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add data in the dropdown after clcik on save and sang suggestions",
+      "time" : {
+        "start" : 1686119678127,
+        "stop" : 1686119678990,
+        "duration" : 863
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dropdownTypes",
+        "value" : "Employment Status, --None--"
+      }, {
+        "name" : "dropdownValues",
+        "value" : "Unemployed"
+      }, {
+        "name" : "sangTypes",
+        "value" : "Employment Status"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Update the address",
+      "time" : {
+        "start" : 1686119678990,
+        "stop" : 1686119679877,
+        "duration" : 887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add the address in the accounts",
+      "time" : {
+        "start" : 1686119679877,
+        "stop" : 1686119680186,
+        "duration" : 309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "permanentStreet",
+        "value" : "N/A"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add the values in the account",
+      "time" : {
+        "start" : 1686119680186,
+        "stop" : 1686119680367,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "postalCode"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Add the values in the account",
+      "time" : {
+        "start" : 1686119680367,
+        "stop" : 1686119680595,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "values",
+        "value" : "N/A"
+      }, {
+        "name" : "sangValueInput",
+        "value" : "city"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Validate the relationship text is displyed",
+      "time" : {
+        "start" : 1686119680595,
+        "stop" : 1686119685927,
+        "duration" : 5332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "logout from the account",
+      "time" : {
+        "start" : 1686119685927,
+        "stop" : 1686119688205,
+        "duration" : 2278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 61,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "logout",
+    "time" : {
+      "start" : 1686121237041,
+      "stop" : 1686121237041,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1686121958174,
+      "stop" : 1686121958593,
+      "duration" : 419
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeWindow",
+    "time" : {
+      "start" : 1686119688215,
+      "stop" : 1686119688396,
+      "duration" : 181
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Test.Person.UnitSelection"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.Person.UnitSelection"
+  }, {
+    "name" : "testMethod",
+    "value" : "T002"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test.Person.UnitSelection"
+  }, {
+    "name" : "host",
+    "value" : "IB-Pune-LAP-356"
+  }, {
+    "name" : "thread",
+    "value" : "25864@IB-Pune-LAP-356.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b201e2ad430f9fe1.json",
+  "parameterValues" : [ ]
+}

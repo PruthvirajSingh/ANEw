@@ -1,0 +1,443 @@
+{
+  "uid" : "de878fc84321f3ee",
+  "name" : "Verify user able to create lead with 'Organisation' record type.",
+  "fullName" : "Test.Person.LeadsCreationTest.T005",
+  "historyId" : "dfa883bd4a3d41cbe844edc3740338a4",
+  "time" : {
+    "start" : 1686121767966,
+    "stop" : 1686121809292,
+    "duration" : 41326
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1686121767953,
+      "stop" : 1686121767953,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "extractDataExcleAndObjectOfClassCreations",
+    "time" : {
+      "start" : 1686121749760,
+      "stop" : 1686121750151,
+      "duration" : 391
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1686118965054,
+      "stop" : 1686118973105,
+      "duration" : 8051
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "User login sandbox with the correct credentials",
+      "time" : {
+        "start" : 1686121767966,
+        "stop" : 1686121773807,
+        "duration" : 5841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "usernameValue",
+        "value" : "jayant.rajput@infobeans.com.regsb"
+      }, {
+        "name" : "passwordValue",
+        "value" : "Sales@1234"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on the Orization and select the all dropdown 'New Lead: Organization' modal",
+      "time" : {
+        "start" : 1686121773831,
+        "stop" : 1686121800545,
+        "duration" : 26714
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter the name and the company name",
+        "time" : {
+          "start" : 1686121773831,
+          "stop" : 1686121785396,
+          "duration" : 11565
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "firstNameValue",
+          "value" : "Automation12345"
+        }, {
+          "name" : "MiddleNameValue",
+          "value" : "Automation"
+        }, {
+          "name" : "lastNameValue",
+          "value" : "Automation123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121785433,
+          "stop" : 1686121786737,
+          "duration" : 1304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Sales Type, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Institutional"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121786788,
+          "stop" : 1686121788532,
+          "duration" : 1744
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Property Usage, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Corporate"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121788589,
+          "stop" : 1686121789697,
+          "duration" : 1108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Project, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Al Bandar Plaza"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121789735,
+          "stop" : 1686121791915,
+          "duration" : 2180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Sales Origin, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Domestic"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121791961,
+          "stop" : 1686121794030,
+          "duration" : 2069
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Method of Contact, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Walk-In"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121794073,
+          "stop" : 1686121796173,
+          "duration" : 2100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Enquiry Category, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "Roadshow"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Fill the data form dropdown to create lead",
+        "time" : {
+          "start" : 1686121796213,
+          "stop" : 1686121798379,
+          "duration" : 2166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "dropdownTypes",
+          "value" : "Enquiry Trigger, --None--"
+        }, {
+          "name" : "dropdownValues",
+          "value" : "International Events & Exhibitions"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on save button",
+        "time" : {
+          "start" : 1686121798379,
+          "stop" : 1686121800545,
+          "duration" : 2166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "firstName",
+        "value" : "Automation12345"
+      }, {
+        "name" : "middleName",
+        "value" : "Automation"
+      }, {
+        "name" : "LastName",
+        "value" : "Automation123456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    }, {
+      "name" : "Validate the status of the lead after click on the lead that is inprocess or completed",
+      "time" : {
+        "start" : 1686121800545,
+        "stop" : 1686121805865,
+        "duration" : 5320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate the custumer reach should be displayed",
+      "time" : {
+        "start" : 1686121805865,
+        "stop" : 1686121805890,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "logout from the account",
+      "time" : {
+        "start" : 1686121805890,
+        "stop" : 1686121809291,
+        "duration" : 3401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 14,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "logout",
+    "time" : {
+      "start" : 1686121958174,
+      "stop" : 1686121958174,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1686121958174,
+      "stop" : 1686121958593,
+      "duration" : 419
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeWindow",
+    "time" : {
+      "start" : 1686121809299,
+      "stop" : 1686121809468,
+      "duration" : 169
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Test.Person.LeadsCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Test.Person.LeadsCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "T005"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test.Person.LeadsCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "IB-Pune-LAP-356"
+  }, {
+    "name" : "thread",
+    "value" : "25864@IB-Pune-LAP-356.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de878fc84321f3ee.json",
+  "parameterValues" : [ ]
+}

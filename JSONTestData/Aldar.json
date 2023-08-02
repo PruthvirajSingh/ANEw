@@ -1,0 +1,129 @@
+{
+	"DropDown":{
+		"Customer Type": "Customer Type, --None--",
+		"Customer sub-type":"Customer Sub Type, --None--",
+		"sales": "Sales Type, --None--",
+		"proprties Usage":"Property Usage, --None--",
+		"project":"Project, --None--",
+		"sales origin":"Sales Origin, --None--",
+		"method of contact":"Method of Contact, --None--",
+		"enquiry category":"Enquiry Category, --None--",
+		"enquiry trigger":"Enquiry Trigger, --None--",
+		"mobile number code":"Mobile Country Code, --None--",
+		"gender selection":"Gender, --None--",
+		"marital Status":"Marital Status, --None--",
+		"residential status":"Residential Address same as Permanent?, --None--",
+		"employmet status":"Employment Status, --None--",
+		"Sale Type":"Sale Type, --None--",
+		"Deal Type":"Deal Type, --None--",
+		"Booking Type":"Booking Type, --None--",
+		"Agent Type":"Agent Type, --None--",
+		"Delivery Method":"Delivery Method, --None--",
+		"Relationship Type":"Relationship Type, --None--",
+		"Projects":"Projects, Select an Option",
+		
+		"Unit type":"Unit Type, --None--",
+		"Buy or Rent":"Buy/Rent, --None--",
+		"Lead origin":"Lead Origin, --None--",
+		"Customer Budget":"Customer Budget, --None--",
+		"Number of Bedrooms":"Number of Bedrooms, --None--",
+		"Resident Status":"Resident Status, --None--",
+		"Financing":"Financing, --None--",
+		"Purpose of Use":"Purpose of Use, --None--",
+		"Property Readiness":"Property Readiness, --None--",
+		"Lead Status":"Lead Status, In Progress Lead"
+		
+
+},
+	"DropDown Values":{
+		"Customer Type selection": "New Customer",
+		"Customer sub-type value":"DOMESTIC",
+		"sales value": "Institutional",
+		"proprties usage value":"Corporate",
+		"project value":"Al Bandar Plaza",
+		"sales origin value":"Domestic",
+		"method of contact value":"Walk-In",
+		"enquiry category value":"Roadshow",
+		"enquiry trigger Value":"International Events & Exhibitions",
+		"mobile number code value":"United Arab Emirates(+971)",
+		"gender selection value":"Male",
+		"marital status value":"Single",
+		"residentail status value":"Yes",
+		"employmet status value":"Unemployed",
+		"sales types value":"Land",
+		"Deal Type value":"Bulk",
+		"Booking Type value":"Online",
+		"Agent Type value":"Direct",
+		"Delivery Method value":"Email",
+		"Relationship Type value":"Child Of",
+		"Projects value":"MoonTown",
+		
+		"Unit Type value":"Apartment",
+		"Buy/Rent value":"Buy",
+		"Lead Origin value":"United Arab Emirates",
+		"Customer Budget value":"0M-AED 25M",
+		"Number of Bedrooms value":"2BHK",
+		"Resident Status value":"Resident",
+		"Financing value":"Yes",
+		"Purpose of Use value":"End User",
+		"Property Readiness value":"0-12 months"
+	},
+	"Sang values":{
+		"marital status sang value":"Marital Status",
+		"residental status sang value":"Residential Address same as Permanent?",
+		"employmet sang value":"Employment Status",
+		"date of birth value":"Date of Birth",
+		"passport type value":"Passport Type",
+		"place of issue":"Place of Issue",
+		"Passport Issue":"Passport Issue Date",
+		"Passport Expiry":"Passport Expiry Date",
+		"Passport num":"Passport Number",
+		"postal":"postalCode",
+		"Type of city":"city",
+		
+		"ErroR Unit Type":"Unit Type",
+		"ErroR Buy/Rent":"Buy/Rent",
+		"ErroR Lead Origin":"Lead Origin",
+		"ErroR Customer Budget":"Customer Budget",
+		"ErroR Number of Bedrooms":"Number of Bedrooms",
+		"ErroR Resident Status":"Resident Status",
+		"ErroR Financing":"Financing",
+		"ErroR Purpose of Use":"Purpose of Use",
+		"ErroR Property Readiness":"Property Readiness"
+		
+		
+		
+		
+		
+		
+		
+		
+	},
+	"Update input feild":{
+		"Date value":"01/05/1789",
+		"N/A value":"N/A",
+		"Date passport issue":"01/05/1989",
+		"Date passport expiry":"01/05/1990" 
+	},
+	"Sang value input":{
+		"sang values":"PersonBirthdate",
+		"Passport value":"PassportType__pc",
+		"PlaceofIssue value":"PlaceofIssue__pc",
+		"Passport issue value":"PassportIssueDate__pc",
+		"Passport Expiry Date value":"PassportExpiryDate__pc",
+		"Passport Number value":"PassportNumber__pc"
+	},
+	"Asserations":{
+		"Converted lead Status":"Converted Lead",
+		"Review error on page":"Review the errors on this page.",
+		"lead status":"Completed",
+		"custmer reached status":"Customer Reached",
+		"Header validate":"Aldar Sales",
+		"Error message":"Please check your username and password. If you still can't log in, contact your Salesforce administrator.",
+		"Header Person":"New Lead: Person",
+		"Header organization":"New Lead: Organization",
+		"Search Asserations":"Search...",
+		"user logoutButton":"User",
+		"Lead Status in process":"In Progress Lead"
+	}
+}

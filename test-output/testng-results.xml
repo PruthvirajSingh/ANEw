@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-01T15:25:34 IST" name="Suite" finished-at="2023-08-01T15:26:31 IST" duration-ms="56478">
+    <groups>
+    </groups>
+    <test started-at="2023-08-01T15:25:34 IST" name="Test" finished-at="2023-08-01T15:26:31 IST" duration-ms="56478">
+      <class name="Test.Person.DatabaseTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:25:34 IST" name="launchBrowser" finished-at="2023-08-01T15:25:43 IST" duration-ms="9100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="extractDataExcleAndObjectOfClassCreations()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:25:43 IST" name="extractDataExcleAndObjectOfClassCreations" finished-at="2023-08-01T15:25:49 IST" duration-ms="5121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractDataExcleAndObjectOfClassCreations -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:25:49 IST" name="beforeMethod" finished-at="2023-08-01T15:25:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="databaseTesting()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:25:49 IST" name="databaseTesting" finished-at="2023-08-01T15:26:29 IST" duration-ms="39909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseTesting -->
+        <test-method is-config="true" signature="closeWindow(org.testng.ITestResult)[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:26:29 IST" name="closeWindow" finished-at="2023-08-01T15:26:30 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=databaseTesting status=SUCCESS method=DatabaseTestCases.databaseTesting()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:26:30 IST" name="logout" finished-at="2023-08-01T15:26:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.Person.DatabaseTestCases@64a4dd8d]" started-at="2023-08-01T15:26:30 IST" name="tearDown" finished-at="2023-08-01T15:26:31 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.Person.DatabaseTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
