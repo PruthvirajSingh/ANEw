@@ -5,7 +5,7 @@ import org.testng.ITestResult;
 
 public class RetrayAnalyzer implements IRetryAnalyzer{
 	int counter =0;
-	int retrayCount=3;
+	int retrayCount=1;
 	
 	public boolean retry(ITestResult result) {
 		if(counter < retrayCount) {
