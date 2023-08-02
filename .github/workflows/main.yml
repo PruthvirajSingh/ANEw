@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'  # Replace with the desired Java version (e.g., 8, 11, 16, etc.)
-          distribution: 'ANEw'  # Specify the distribution of the JDK (e.g., adopt, adopt-openj9, corretto, graalvm)
+          
 
       - name: Cache Maven dependencies
         uses: actions/cache@v2
