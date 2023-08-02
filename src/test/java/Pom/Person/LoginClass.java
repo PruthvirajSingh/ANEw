@@ -35,6 +35,7 @@ public class LoginClass {
 	}
 	@Step("User login sandbox with the correct credentials")
 	public void loginToSandBox(String usernameValue,String passwordValue) throws InterruptedException {
+		Thread.sleep(2000);
 		username.sendKeys(usernameValue);
 		password.sendKeys(passwordValue);
 		loginToSandBoxButton.click();
