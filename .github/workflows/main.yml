@@ -1,0 +1,34 @@
+name: Daily Selenium Test Run
+
+on:
+  workflow_dispatch:  # This will enable manual triggering of the workflow
+
+jobs:
+  test:
+    name: Run Selenium Tests
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'  # Replace with the desired Java version (e.g., 8, 11, 16, etc.)
+          distribution: 'adopt'  # Specify the distribution of the JDK (e.g., adopt, adopt-openj9, corretto, graalvm)
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+
+      - name: Build and run tests
+        run: |
+          mvn test
+      - name: Generate Allure report
+        run: |
+            npm install -g allure-commandline
+            allure --version
+            allure generate allure-results --clean
