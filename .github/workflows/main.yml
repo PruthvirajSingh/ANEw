@@ -1,7 +1,7 @@
 on:
   schedule:
-    - cron: '*/45 * * * *'  # Run every 30 minutes
-  workflow_dispatch:
+    - cron: '*/2 * * * *'  # Run every 30 minutes
+  
 
 jobs:
   test:
