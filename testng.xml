@@ -8,7 +8,7 @@
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="Test.Person.LeadConversionTest">
+			<class name="Test.Person.LeadsCreationTest">
 		
 			</class>
 		</classes>
