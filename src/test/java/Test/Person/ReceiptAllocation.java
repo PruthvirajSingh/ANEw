@@ -99,7 +99,7 @@ public class ReceiptAllocation extends BaseClass{
 		unitSel.dropDownSelectionUnit();
 		logoutUserFromSandBox.logoutUser();
 	}
-	@Test(description = "Verify that, after the book unit is successfully completed, the user is able to see the sales order generated in the account tab.",dependsOnMethods="T001")
+	@Test(description = "Verify that, after the book unit is successfully completed, the user is able to see the sales order generated in the account tab.",dependsOnMethods="TC001")
 	public void TC002() throws InterruptedException {
 		login.loginToSandBox(prop.getProperty("Username"),prop.getProperty("Password"));
 		adminLead.globalSearchLeadName(substring);
@@ -107,7 +107,7 @@ public class ReceiptAllocation extends BaseClass{
 		Assert.assertEquals(receipt.salesOrderNumber(),"(1)");
 		logoutUserFromSandBox.logoutUser();
 	}
-	@Test (description="Verify user able to fill all types of the installment and sales order other charges 'Receipt Acknowledgement Creation' all the informations and check the status is pending",dependsOnMethods="T001")
+	@Test (description="Verify user able to fill all types of the installment and sales order other charges 'Receipt Acknowledgement Creation' all the informations and check the status is pending",dependsOnMethods="TC001")
 	public void TC004() throws InterruptedException {
 		login.loginToSandBox(prop.getProperty("Username"),prop.getProperty("Password"));
 		adminLead.globalSearchLeadName(substring);
@@ -143,7 +143,7 @@ public class ReceiptAllocation extends BaseClass{
 		Assert.assertEquals(receipt.salesOrderLinkClick(),"Pending");;
 		logoutUserFromSandBox.logoutUser();
 	}
-	@Test(description="Verify that user able to change the status pending to close after the admin login",dependsOnMethods="T004")
+	@Test(description="Verify that user able to change the status pending to close after the admin login",dependsOnMethods="TC004")
 	public void TC005() throws InterruptedException {
 		login.loginToSandBox(prop.getProperty("AdminUsername"),prop.getProperty("AdminPassword"));
 		adminLead.globalSearchLeadName("Autmation804 Automation Autmation19008");
