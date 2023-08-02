@@ -6,7 +6,7 @@
 		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
 		<listener class-name="Analyzer.MyTransformer" />
 	</listeners>
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="Test" preserve-order="true">
 		<classes>
 			<class name="Test.Person.LeadsCreationTest">
  			<class name="Test.Person.LeadConversionTest">
