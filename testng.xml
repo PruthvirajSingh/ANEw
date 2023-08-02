@@ -10,9 +10,9 @@
         <classes>
             <class name="Test.Person.LeadsCreationTest" />
             <class name="Test.Person.LeadConversionTest" />
-            <!-- <class name="Test.Person.ReceiptAllocation" /> -->
-            <!-- <class name="Test.Person.DatabaseTestCases" /> -->
-            <!-- <class name="Test.Person.SalesOrderGenrations" /> -->
+            <class name="Test.Person.ReceiptAllocation" /> 
+            <class name="Test.Person.DatabaseTestCases" />
+            <class name="Test.Person.SalesOrderGenrations" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
