@@ -33,3 +33,8 @@ jobs:
           npm install -g allure-commandline
           allure --version
           allure generate allure-results --clean
+      - name: Deploy Allure report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.MY_TOKEN_NEW }}
+          publish_dir: ./allure-report
