@@ -19,8 +19,8 @@ public class DatabaseTestCases extends BaseClass {
     public void databaseTesting() throws InterruptedException {
         login.loginToSandBox(prop.getProperty("AdminUsername"), prop.getProperty("AdminPassword"));
         database.salesForceInspector();
-        String jsonFile1 = loadJsonFile("C:\\Aldar\\NewA\\Aldar\\output.json");
-        String jsonFile2 = loadJsonFile("C:\\Aldar\\NewA\\Aldar\\op2.json");
+        String jsonFile1 = loadJsonFile(System.getProperty("user.dir")+"\\Aldar\\output.json");
+        String jsonFile2 = loadJsonFile(System.getProperty("user.dir")+"\\Aldar\\op2.json");
 
         // Parse JSON strings into JSON arrays
         JSONArray jsonArray1 = new JSONArray(jsonFile1);
