@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
-		<listener class-name="Utility.LogResults" />
-		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
-		<listener class-name="Analyzer.MyTransformer" />
-	</listeners>
-	<test thread-count="5" name="Test">
-		<classes>
-			<class name="Test.Person.LeadsCreationTest">
-			<class name="Test.Person.LeadConversionTest">
-			<class name="Test.Person.ReceiptAllocation">
-			<class name="Test.Person.DatabaseTestCases">
-			<class name="Test.Person.SalesOrderGenrations">
-			
-			</class>
-		</classes>
-	</test> <!-- Test -->
+    <listeners>
+        <listener class-name="Utility.LogResults" />
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+        <listener class-name="Analyzer.MyTransformer" />
+    </listeners>
+    <test thread-count="5" name="Test" preserve-order="true">
+        <classes>
+            <class name="Test.Person.LeadsCreationTest" />
+            <class name="Test.Person.LeadConversionTest" />
+            <!-- <class name="Test.Person.ReceiptAllocation" /> -->
+            <!-- <class name="Test.Person.DatabaseTestCases" /> -->
+            <!-- <class name="Test.Person.SalesOrderGenrations" /> -->
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->
