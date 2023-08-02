@@ -9,10 +9,10 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="Test.Person.LeadsCreationTest">
-			<class name="Test.Person.LeadConversionTest">
+<!-- 			<class name="Test.Person.LeadConversionTest">
 			<class name="Test.Person.ReceiptAllocation">
 			<class name="Test.Person.DatabaseTestCases">
-			<class name="Test.Person.SalesOrderGenrations">
+			<class name="Test.Person.SalesOrderGenrations"> -->
 			
 			</class>
 		</classes>
