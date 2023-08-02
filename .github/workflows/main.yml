@@ -1,7 +1,8 @@
 name: Daily Selenium Test Run
 
 on:
-  workflow_dispatch:  # This will enable manual triggering of the workflow
+  schedule:
+    - cron: '*/30 * * * *'  # Run every 30 minutes
 
 jobs:
   test:
@@ -27,8 +28,9 @@ jobs:
       - name: Build and run tests
         run: |
           mvn test
+          
       - name: Generate Allure report
         run: |
-            npm install -g allure-commandline
-            allure --version
-            allure generate allure-results --clean
+          npm install -g allure-commandline
+          allure --version
+          allure generate allure-results --clean
