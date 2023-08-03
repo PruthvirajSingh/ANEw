@@ -1,8 +1,7 @@
 on:
   schedule:
     - cron: '*/15 * * * *'  # Run every 30 minutes
-  pull_request:  # Trigger on pull requests to any branch
-  push:  # Trigger on any commit (push) to any branch
+                            #  Trigger on any commit (push) to any branch
 jobs:
   test:
     name: Run Selenium Tests
