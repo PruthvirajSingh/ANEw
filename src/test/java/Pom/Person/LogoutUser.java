@@ -1,7 +1,12 @@
 package Pom.Person;
 
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -34,35 +39,27 @@ public class LogoutUser {
 	}
 
 	@Step("logout from the account")
-	public void logoutUser() throws InterruptedException {
-		int maxRetries = 3;
-		int retryCount = 0;
-		while (retryCount < maxRetries) {
-			try {
-				Thread.sleep(2000);
-				wait.until(ExpectedConditions.elementToBeClickable(userLogoHeader));
-				j.executeScript("arguments[0].click();", userLogoHeader);
-				Thread.sleep(2000);
-				wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
-				Thread.sleep(2000);
-				
-				logoutButton.click();
-				Thread.sleep(2000);
-				wait.until(ExpectedConditions.visibilityOf(username));
-				break; // Exit the loop if execution reaches this point without throwing an exception
-			} catch (Exception e) {
-				// Exception occurred, retry logic
-				retryCount++;
-				System.out.println("Attempt " + retryCount + " to locate userLogoHeader failed.");
-				Thread.sleep(1000); // Wait for a short duration before retrying
-			}
-		}
+	public void logoutUser() {
+	    int maxRetries = 3;
+	    int retryCount = 0;
+	    WebDriverWait wait = new WebDriverWait(driver, 10); // Adjust the timeout as needed (seconds)
 
-		if (retryCount >= maxRetries) {
-			// Maximum number of retries reached, handle the failure scenario
-			System.out.println("Unable to locate userLogoHeader after " + maxRetries + " attempts.");
-		}
+	    while (retryCount < maxRetries) {
+	        try {
+	            wait.until(ExpectedConditions.elementToBeClickable(userLogoHeader)).click();
+	            wait.until(ExpectedConditions.elementToBeClickable(logoutButton)).click();
+	            return; // Exit the method if logout is successful
+	        } catch (NoSuchElementException | WebDriverException e) {
+	            // Exception occurred, retry logic
+	            retryCount++;
+	            System.out.println("Attempt " + retryCount + " to logout failed: " + e.getMessage());
+	        }
+	    }
+
+	    // Maximum number of retries reached, handle the failure scenario
+	    System.out.println("Unable to logout after " + maxRetries + " attempts.");
 	}
+
 
 	public String logoValidation() {
 		return imageOFTheLogout.getAttribute("title");
