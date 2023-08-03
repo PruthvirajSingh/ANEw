@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/45 * * * *'  # Run every 30 minutes
+    - cron: '*/15 * * * *'  # Run every 30 minutes
   pull_request:  # Trigger on pull requests to any branch
   push:  # Trigger on any commit (push) to any branch
 jobs:
