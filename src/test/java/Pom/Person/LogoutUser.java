@@ -39,9 +39,12 @@ public class LogoutUser {
 		int retryCount = 0;
 		while (retryCount < maxRetries) {
 			try {
+				Thread.sleep(2000);
 				wait.until(ExpectedConditions.elementToBeClickable(userLogoHeader));
 				j.executeScript("arguments[0].click();", userLogoHeader);
+				Thread.sleep(2000);
 				wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
+				Thread.sleep(2000);
 				logoutButton.click();
 				wait.until(ExpectedConditions.visibilityOf(username));
 				break; // Exit the loop if execution reaches this point without throwing an exception

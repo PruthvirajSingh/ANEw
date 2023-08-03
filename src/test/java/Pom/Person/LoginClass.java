@@ -12,7 +12,7 @@ import io.qameta.allure.Step;
 public class LoginClass {
 	private WebDriver driver;
 	WebDriverWait wait;
-	@FindBy (xpath="//input[@id='username']")
+	@FindBy (css="#usernamegroup #username")
 	private WebElement username;
 	
 	@FindBy (xpath="//input[@id='password']")
