@@ -45,7 +45,9 @@ public class LogoutUser {
 				Thread.sleep(2000);
 				wait.until(ExpectedConditions.elementToBeClickable(logoutButton));
 				Thread.sleep(2000);
+				
 				logoutButton.click();
+				Thread.sleep(2000);
 				wait.until(ExpectedConditions.visibilityOf(username));
 				break; // Exit the loop if execution reaches this point without throwing an exception
 			} catch (Exception e) {
