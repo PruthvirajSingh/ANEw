@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run every 30 minutes
+    - cron: '*/47 * * * *'  # Run every 30 minutes
                             #  Trigger on any commit (push) to any branch
 jobs:
   test:
