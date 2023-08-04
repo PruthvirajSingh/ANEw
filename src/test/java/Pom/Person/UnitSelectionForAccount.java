@@ -371,7 +371,7 @@ public class UnitSelectionForAccount {
 		documentSelectionByIndex(inputIndex2).click();
 		wait.until(ExpectedConditions.visibilityOf(numberOfDocuments));
 		driver.navigate().refresh();
-		wait.until(ExpectedConditions.elementToBeClickable(inputSlot)).sendKeys("C:\\Aldar\\Aldar\\sample (1).pdf");
+		wait.until(ExpectedConditions.elementToBeClickable(inputSlot)).sendKeys(System.getProperty("user.dir")+"\\sample (1).pdf");
 		Thread.sleep(9000);
 		wait.until(ExpectedConditions.elementToBeClickable(doneButton)).click();
 
@@ -384,7 +384,7 @@ public class UnitSelectionForAccount {
 		documentSelectionByIndex(inputIndex2).click();
 		wait.until(ExpectedConditions.visibilityOf(numberOfDocuments));
 		driver.navigate().refresh();
-		wait.until(ExpectedConditions.elementToBeClickable(inputSlot)).sendKeys("C:\\Aldar\\Aldar\\sample (1).pdf");
+		wait.until(ExpectedConditions.elementToBeClickable(inputSlot)).sendKeys(System.getProperty("user.dir")+"\\sample (1).pdf");
 		Thread.sleep(7000);
 		wait.until(ExpectedConditions.elementToBeClickable(doneButton)).click();
 		return numberOfDocuments.getText();
