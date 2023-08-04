@@ -1,6 +1,5 @@
 on:
-  schedule:
-    - cron: '*/59 * * * *'  
+  
   workflow_dispatch:
                             
 jobs:
