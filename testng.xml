@@ -13,6 +13,7 @@
             <class name="Test.Person.ReceiptAllocation" />
             <!-- <class name="Test.Person.DatabaseTestCases" /> -->
             <class name="Test.Person.SalesOrderGenrations" />
+			<class name="Test.Person.UnitSelection" /> 
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

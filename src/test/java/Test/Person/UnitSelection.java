@@ -251,7 +251,7 @@ public class UnitSelection extends BaseClass {
 		unitSel.relationship();
 		logoutUserFromSandBox.logoutUser();
 	}
-	@Test(description = "Verify \"Add to Cart\" is getting highlighted with number of units selected.",dependsOnMethods="T003")
+	@Test(description = "Verify \"Add to Cart\" is getting highlighted with number of units selected.",dependsOnMethods="exclamationMarkdisappearsAfterEnteringAllMandatoryDetailsTC003")
 	public void addToCartHighlightedTC005() throws EncryptedDocumentException, InterruptedException, IOException {
 		login.loginToSandBox(prop.getProperty("Username"),prop.getProperty("Password"));
 		adminLead.globalSearchLeadName(substring);
@@ -261,7 +261,7 @@ public class UnitSelection extends BaseClass {
 		Assert.assertEquals(unitSel.addToCart(),"1");
 		logoutUserFromSandBox.logoutUser();
 	}
-	@Test(description = "Verify if Valid data is getting filtered and visible after entering the details in Unit search.",dependsOnMethods="T003")
+	@Test(description = "Verify if Valid data is getting filtered and visible after entering the details in Unit search.",dependsOnMethods="exclamationMarkdisappearsAfterEnteringAllMandatoryDetailsTC003")
 	public void filteredDataAfterUnitSearchTC006() throws EncryptedDocumentException, InterruptedException, IOException {
 		login.loginToSandBox(prop.getProperty("Username"),prop.getProperty("Password"));
 		adminLead.globalSearchLeadName(substring);
