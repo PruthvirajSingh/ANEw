@@ -70,7 +70,7 @@ public class BaseClass extends PojoClass {
         try {
             prop = new Properties();
             FileInputStream fis = new FileInputStream(
-                    System.getProperty("user.dir") + "\\src\\test\\java\\Config\\Config.Properties");
+                    System.getProperty("user.dir") + "\\src\\test\\java\\config\\Config.Properties");
             prop.load(fis);
         } catch (Exception e) {
             e.printStackTrace();
@@ -99,16 +99,22 @@ public class BaseClass extends PojoClass {
 		return driver;
 	}
 
-	@BeforeTest(alwaysRun = true)
+	@BeforeTest
 	public void launchBrowser() throws EncryptedDocumentException, IOException, InterruptedException {
+		
+	}
+
+	@BeforeClass
+	public void extractDataExcleAndObjectOfClassCreations() throws IOException, EncryptedDocumentException, InterruptedException {
+	
+	}
+
+	@BeforeMethod(alwaysRun = true)
+	public void beforeMethod() throws EncryptedDocumentException, IOException, InterruptedException {
 		driver = chromeBrowser();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		report = new Sparkreport("Test", "extent report", "Aldar", "AldarProject");
-	}
-
-	@BeforeClass(alwaysRun = true)
-	public void extractDataExcleAndObjectOfClassCreations() throws IOException, EncryptedDocumentException, InterruptedException {
 		driver.navigate().to(prop.getProperty("URL"));
 		node=UtilClass.readJson(System.getProperty("user.dir")+"\\JSONTestData\\Aldar.json");
 		login = new LoginClass(driver);
@@ -120,27 +126,20 @@ public class BaseClass extends PojoClass {
 		database=new DataBasePom(driver);
 	}
 
-	@BeforeMethod(alwaysRun = true)
-	public void beforeMethod() throws EncryptedDocumentException, IOException, InterruptedException {
-
-	}
-
 	@AfterMethod(alwaysRun = true)
-	public void closeWindow(ITestResult result) throws IOException, InterruptedException {
+	public void closeWindow(ITestResult result)  {
 		report.flush();
-
+		driver.close();
 	}
 
 	@AfterClass(alwaysRun = true)
 	public void logout() throws InterruptedException {
-		
 		login = null;
 	}
 
 	@AfterTest
 	public void tearDown() throws InterruptedException {
 		
-		driver.close();
 		System.gc();
 	}
 }

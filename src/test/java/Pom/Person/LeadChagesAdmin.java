@@ -141,7 +141,7 @@ public class LeadChagesAdmin {
 		wait.until(ExpectedConditions.visibilityOf(oppertiesButton));
 		wait.until(ExpectedConditions.visibilityOf(homeButton));
 		try {
-			for (int i = 0; i <= 10; i++) {
+			for (int i = 0; i <= 40; i++) {
 				wait.until(ExpectedConditions.elementToBeClickable(serchBar)).click();
 			}
 		} catch (Exception e) {
@@ -166,7 +166,7 @@ public class LeadChagesAdmin {
 		while (!clicked && retryCount < 3) {
 			try {
 				wait.until(ExpectedConditions.elementToBeClickable(serchBar));
-				for (int i = 0; i <=5; i++) {
+				for (int i = 0; i <=40; i++) {
 					j.executeScript("arguments[0].click();", serchBar);
 				}
 				clicked = true;

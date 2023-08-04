@@ -19,10 +19,10 @@ public class LogoutUser {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	JavascriptExecutor j;
-	@FindBy(css = ".slds-button.branding-userProfile-button")
+	@FindBy(xpath= "//button[contains(@class,'slds-global-actions__avatar slds-global-actions__item-action')]")
 	private WebElement userLogoHeader;
 
-	@FindBy(css = ".logout")
+	@FindBy(xpath = "//a[contains(@class,'profile-link-label logout uiOutputURL')]")
 	private WebElement logoutButton;
 
 	@FindBy(xpath = "//input[@id='username']")
